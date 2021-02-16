@@ -1,0 +1,12 @@
+#root h1 {
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  transition: ease-out 200ms;
+
+  &:hover {
+    background-color: white;
+    color: steelblue;
+  }
+}
